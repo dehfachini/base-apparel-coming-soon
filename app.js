@@ -1,4 +1,5 @@
 const button = document.querySelector(".icon-arrow")
+
 button.addEventListener("click", function () {
     const emailInput = document.getElementById("email")
     const value = emailInput.value
@@ -6,8 +7,10 @@ button.addEventListener("click", function () {
 
     if (value === "") {
         errorMessageEl.style.display="block"
+        emailInput.style.borderColor="red"
     } else if (!value.includes("@") || !value.includes(".")) {
         errorMessageEl.style.display="block"
+        emailInput.style.borderColor="red"
     }
 
 })
