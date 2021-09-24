@@ -1,0 +1,18 @@
+.text {
+    margin-bottom: 10rem;
+}
+
+.icon-arrow {
+    width: 2rem;
+    background-color: red;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.inputandicon {
+    display: flex;
+}
+
+#error-message {
+    display: none;
+}
