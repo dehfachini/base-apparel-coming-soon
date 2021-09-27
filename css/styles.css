@@ -9,6 +9,8 @@
 
 body {
     font-family: var(--font-family);
+    height: auto;
+    
 }
 
 .container {
@@ -17,15 +19,42 @@ body {
 
 
 .left-side {
-    margin: 4rem 8rem 8rem 8rem;
+    margin: 3rem 10rem 8rem 8rem;
 }
 
 .title {
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 60px;
 }
+
+.weare {
+    color: var(--desaturated-red);
+    font-weight: 300;
+
+}
+
 .text {
-    margin-bottom: 10rem;
+    margin-bottom: 2rem;
+    font-size: 14px;
+    line-height: 1.5rem;
+    color: var(--desaturated-red);
+}
+
+#email {
+    width: 24rem;
+    height: 2.5rem;
+    border-radius: 30px;
+    border-color: var(--desaturated-red);
+    border-style: solid;
+    border-width: 1px;
+
+}
+
+#email::placeholder {
+    color: var(--desaturated-red);
+    padding-left: 20px;
+
 }
 
 .icon-arrow {
