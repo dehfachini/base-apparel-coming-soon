@@ -3,20 +3,16 @@
     --soft-red: hsl(0, 93%, 68%);
     --dark-grayish-red: hsl(0, 6%, 24%);
     --font-family: 'Josefin Sans', sans-serif;
-
-
 }
 
 body {
     font-family: var(--font-family);
     height: auto;
-    
 }
 
 .container {
     display: flex;
 }
-
 
 .left-side {
     margin: 3rem 10rem 8rem 8rem;
@@ -31,7 +27,6 @@ body {
 .weare {
     color: var(--desaturated-red);
     font-weight: 300;
-
 }
 
 .text {
@@ -48,20 +43,32 @@ body {
     border-color: var(--desaturated-red);
     border-style: solid;
     border-width: 1px;
-
 }
 
 #email::placeholder {
     color: var(--desaturated-red);
     padding-left: 20px;
-
 }
 
 .icon-arrow {
-    width: 2rem;
-    background-color: red;
+    width: 5rem;
+    background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     cursor: pointer;
     margin-left: 1rem;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: var(--desaturated-red) 0px 5px 15px;
+}
+
+.icon-arrow:hover {
+    background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
 }
 
 .inputandicon {
@@ -70,4 +77,8 @@ body {
 
 #error-message {
     display: none;
+    padding-top: 1rem;
+    color: var(--soft-red);
+    margin-left: 20px;
+    font-size: 14px;
 }
