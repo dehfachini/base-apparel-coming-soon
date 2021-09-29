@@ -43,6 +43,7 @@ body {
     border-color: var(--desaturated-red);
     border-style: solid;
     border-width: 1px;
+    
 }
 
 #email::placeholder {
@@ -60,6 +61,9 @@ body {
     align-items: center;
     justify-content: center;
     box-shadow: var(--desaturated-red) 0px 5px 15px;
+    position: absolute;
+    right: -2px;
+    height: 2.8rem;
 }
 
 .icon-arrow:hover {
@@ -73,6 +77,7 @@ body {
 
 .inputandicon {
     display: flex;
+    position: relative;
 }
 
 #error-message {
