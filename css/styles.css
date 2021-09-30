@@ -8,6 +8,7 @@
 body {
     font-family: var(--font-family);
     height: auto;
+    overflow: hidden;
 }
 
 .container {
@@ -16,10 +17,11 @@ body {
 
 .left-side {
     margin: 3rem 10rem 8rem 8rem;
+    width: 30rem;
 }
 
 .title {
-    margin-top: 6rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
     font-size: 60px;
 }
@@ -62,7 +64,7 @@ body {
     justify-content: center;
     box-shadow: var(--desaturated-red) 0px 5px 15px;
     position: absolute;
-    right: -2px;
+    right: 50px;
     height: 2.8rem;
 }
 
@@ -86,4 +88,9 @@ body {
     color: var(--soft-red);
     margin-left: 20px;
     font-size: 14px;
+}
+
+.woman-picture img {
+    height: 40rem;
+    width: 32em;
 }
